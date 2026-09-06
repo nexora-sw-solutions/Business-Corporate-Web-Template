@@ -7,6 +7,7 @@ import { ResourcesPage } from "@/pages/ResourcesPage"
 import { ContactPage } from "@/pages/ContactPage"
 import { CapabilityDetails } from "@/pages/CapabilityDetails"
 import { TeamPage } from "@/pages/TeamPage"
+import { LegalPage } from "@/pages/LegalPage"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/capabilities/:id" element={<CapabilityDetails />} />
             <Route path="/resources" element={<ResourcesPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/legal" element={<LegalPage />} />
           </Routes>
         </MainLayout>
       </BrowserRouter>
